@@ -31,7 +31,11 @@ app.get('/',(req, res)=>{
 
 app.use(
     cors({
+<<<<<<< HEAD
         origin:["https:/localhost:3000", "https:/localhost:5173", "https:/localhost:8000"]
+=======
+        origin:["https://localhost:3000", "https://localhost:5173", "https://localhost:8000"]
+>>>>>>> e422b62 (some changes)
         ,
         credential :true
     })

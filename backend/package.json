@@ -13,6 +13,10 @@
   "description": "",
   "dependencies": {
     "express": "^4.19.2",
+<<<<<<< HEAD
+=======
+    "ffmpeg": "^0.0.4",
+>>>>>>> e422b62 (some changes)
     "multer": "^1.4.5-lts.1",
     "uuid": "^10.0.0"
   },

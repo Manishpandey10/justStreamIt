@@ -1,3 +1,7 @@
 node_modules
 package-lock.json
 test-vid
+<<<<<<< HEAD
+=======
+uploads
+>>>>>>> e422b62 (some changes)

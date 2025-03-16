@@ -6,7 +6,11 @@ import videojs from "video.js"
 
 function App() {
 const playerRef = useRef(null)
+<<<<<<< HEAD
 const videoLink = "https://localhost:8000/uploads/playlist/5df9b53f-0925-40af-8392-c146710a8b2b/index.m3u8"
+=======
+const videoLink = "https://localhost:8000/uploads/playlist/62824389-037f-4a46-b64b-81216dd4e307/index.m3u8"
+>>>>>>> e422b62 (some changes)
 
 const videoPlayerOption = {
   controls: true,
@@ -35,7 +39,12 @@ const handlePlayerReady = (player) => {
   return (
     <>
       <div>
+<<<<<<< HEAD
         <h1>Video:HSR intro</h1>
+=======
+        <p>This page is a proof of concept*</p>
+        <h1>Video:1 Testing</h1>
+>>>>>>> e422b62 (some changes)
       </div>
       <VideoPlayer
       options= {videoPlayerOption}
